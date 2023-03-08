@@ -1,266 +1,263 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   color: #f7b633;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
+  display: block;
+  margin-top: 0;
 }
 
-.navbar-toggler{
-    background-color:#f7b633;
+.navbar-toggler {
+  background-color: #f7b633;
 }
 
 .botonQatar {
-    background-color: #ffffff;
-    color:#6C1D45;
-    border-color: #ffffff;
-    border-radius: 15px;
-    padding: 7px;
+  background-color: white;
+  color: #6C1D45;
+  border-color: #ffffff;
+  border-radius: 15px;
+  padding: 7px;
 }
 
-.botonQatar:hover{
-    background-color: #6C1D45;
-    color: #ffffff;
-    border-color: #6C1D45;
+.botonQatar:hover {
+  background-color: #6C1D45;
+  color: #ffffff;
+  border-color: #6C1D45;
 }
 
-p{
-    font-size: larger;
+p {
+  font-size: larger;
 }
 
 .blockquote-footer {
-    font-size: large;
+  font-size: large;
 }
 
-.lista{
-    font-size: larger;
+.lista {
+  font-size: larger;
 }
 
 .imgMain {
-    width: 60vw;
-    padding: 20px;
+  width: 60vw;
+  padding: 20px;
 }
 
 h1 {
-    font-weight: bold;
-    margin-top: 20px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 h4 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .parrafoPlaceholder {
-    font-size:medium;
-    color: #595c5f;
+  font-size: medium;
+  color: #595c5f;
 }
 
 .marketing {
-    text-align: center;
+  text-align: center;
 }
 
 .imagenPlaceholder {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
-.dropdown-item.active{
-    background-color:#2b3035
+.dropdown-item.active {
+  background-color: #2b3035;
 }
 
 .slider {
-    width: 100%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 .heading {
-    margin-top: 17px;
+  margin-top: 17px;
 }
 
 .viaje {
-    margin: 10px;
+  margin: 10px;
 }
 
 .mainGaleria {
-    text-align: center;
-    margin: 0px;
-    padding: 10px;
-    display: grid;
-    justify-content: center;
-    grid-area: main;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  grid-area: main;
 }
 
 .galeria {
-    display: grid;
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .destino {
-    transition: box-shadow 0.3s;
-    background-position: center center; 
-    background-size: cover; 
-    height: 300px;
-    width: 300px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: flex-end; 
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
+  transition: box-shadow 0.3s;
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
 }
-
 .destino:hover {
-    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.6);
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.6);
 }
-
 .destino button {
-    border-radius: 10px; 
-    background-color: #212529; 
-    color: #ffffff;
-    border: none; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: background-color 1s, color 1s; 
-    cursor: pointer; 
+  border-radius: 10px;
+  background-color: #212529;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 1s, color 1s;
+  cursor: pointer;
 }
-
-.destino button:hover{
-    background-color: #f7b633;
-    color: #212529; 
+.destino button:hover {
+  background-color: #f7b633;
+  color: #212529;
 }
 
 #y2500ac {
-    background-image: url(../imgs/-2500.png);
+  background-image: url(../imgs/-2500.png);
 }
 
 #y2200ac {
-    background-image: url(../imgs/-2200.png);
+  background-image: url(../imgs/-2200.png);
 }
 
 #y0 {
-    background-image: url(../imgs/0.png);
+  background-image: url(../imgs/0.png);
 }
 
 #y80 {
-    background-image: url(../imgs/80.png);
+  background-image: url(../imgs/80.png);
 }
 
 #y476 {
-    background-image: url(../imgs/476.png);
+  background-image: url(../imgs/476.png);
 }
 
 #y843 {
-    background-image: url(../imgs/843.png);
+  background-image: url(../imgs/843.png);
 }
 
 #y1291 {
-    background-image: url(../imgs/1291.png);
+  background-image: url(../imgs/1291.png);
 }
 
 #y1453 {
-    background-image: url(../imgs/1453.png);
+  background-image: url(../imgs/1453.png);
 }
 
 #y1492 {
-    background-image: url(../imgs/1492.png);
+  background-image: url(../imgs/1492.png);
 }
 
 #y1504 {
-    background-image: url(../imgs/1504.png);
+  background-image: url(../imgs/1504.png);
 }
 
 #y1623 {
-    background-image: url(../imgs/1623.png);
+  background-image: url(../imgs/1623.png);
 }
 
 #y1688 {
-    background-image: url(../imgs/1688.png);
+  background-image: url(../imgs/1688.png);
 }
 
 #y1789 {
-    background-image: url(../imgs/1789.png);
+  background-image: url(../imgs/1789.png);
 }
 
 #y1945 {
-    background-image: url(../imgs/1945.png);
+  background-image: url(../imgs/1945.png);
 }
 
 #y1969 {
-    background-image: url(../imgs/1969.png);
+  background-image: url(../imgs/1969.png);
 }
 
 #y1989 {
-    background-image: url(../imgs/1989.png);
+  background-image: url(../imgs/1989.png);
 }
 
 #y2427 {
-    background-image: url(../imgs/2427.png);
+  background-image: url(../imgs/2427.png);
 }
 
 #y2675 {
-    background-image: url(../imgs/2675.png);
+  background-image: url(../imgs/2675.png);
 }
 
 #y2815 {
-    background-image: url(../imgs/2815.png);
+  background-image: url(../imgs/2815.png);
 }
 
 #y2999 {
-    background-image: url(../imgs/2999.png);
+  background-image: url(../imgs/2999.png);
 }
 
 #y3013 {
-    background-image: url(../imgs/3013.png);
+  background-image: url(../imgs/3013.png);
 }
 
 #y3309 {
-    background-image: url(../imgs/3309.png);
+  background-image: url(../imgs/3309.png);
 }
 
 #y4108 {
-    background-image: url(../imgs/4108.png);
+  background-image: url(../imgs/4108.png);
 }
 
 #y4652 {
-    background-image: url(../imgs/4652.png);
+  background-image: url(../imgs/4652.png);
 }
 
 #d2011 {
-    background-image: url(../imgs/d2011.png);
+  background-image: url(../imgs/d2011.png);
 }
 
 #d2311 {
-    background-image: url(../imgs/d2311.png);
+  background-image: url(../imgs/d2311.png);
 }
 
 #d912 {
-    background-image: url(../imgs/d912.png);
+  background-image: url(../imgs/d912.png);
 }
 
 #d1812 {
-    background-image: url(../imgs/d1812.png);
+  background-image: url(../imgs/d1812.png);
 }
 
 /* TABLET */
 @media (min-width: 768px) {
-
-
-.galeria {
+  .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr;
-} 
+  }
 }
-
 /* DESTKOP */
 @media (min-width: 1366px) {
-.galeria {
+  .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
-}
+
+/*# sourceMappingURL=style.css.map */
