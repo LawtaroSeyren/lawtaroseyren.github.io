@@ -1,0 +1,30 @@
+.nav-link:hover{
+    color: $color-3;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar-toggler{
+    background-color:$color-3;
+}
+
+.botonQatar {
+    background-color: white;
+    color: $color-qatar;
+    border-color: #ffffff;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.botonQatar:hover{
+    background-color: $color-qatar;
+    color: #ffffff;
+    border-color: $color-qatar;
+}
+
+.dropdown-item.active{
+    background-color:#2b3035
+}

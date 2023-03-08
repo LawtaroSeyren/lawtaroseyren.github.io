@@ -1,0 +1,17 @@
+/* TABLET */
+@media (min-width: 768px) {
+
+
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    }
+    
+    /* DESTKOP */
+    @media (min-width: 1366px) {
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    }

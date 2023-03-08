@@ -1,0 +1,163 @@
+.mainGaleria {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    grid-area: main;
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.destino {
+    transition: box-shadow 0.3s;
+    background-position: center center; 
+    background-size: cover; 
+    height: 300px;
+    width: 300px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+
+    :hover {
+        box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.6);
+    }
+
+    button {
+        border-radius: 10px; 
+        background-color: $color-1; 
+        color: #ffffff;
+        border: none; 
+        padding: 10px 20px; 
+        font-size: 16px; 
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 1s, color 1s; 
+        cursor: pointer;
+        
+        :hover{
+            background-color: $color-3;
+            color: $color-1; 
+        }
+    }
+
+}
+
+#y2500ac {
+    background-image: url(../imgs/-2500.png);
+}
+
+#y2200ac {
+    background-image: url(../imgs/-2200.png);
+}
+
+#y0 {
+    background-image: url(../imgs/0.png);
+}
+
+#y80 {
+    background-image: url(../imgs/80.png);
+}
+
+#y476 {
+    background-image: url(../imgs/476.png);
+}
+
+#y843 {
+    background-image: url(../imgs/843.png);
+}
+
+#y1291 {
+    background-image: url(../imgs/1291.png);
+}
+
+#y1453 {
+    background-image: url(../imgs/1453.png);
+}
+
+#y1492 {
+    background-image: url(../imgs/1492.png);
+}
+
+#y1504 {
+    background-image: url(../imgs/1504.png);
+}
+
+#y1623 {
+    background-image: url(../imgs/1623.png);
+}
+
+#y1688 {
+    background-image: url(../imgs/1688.png);
+}
+
+#y1789 {
+    background-image: url(../imgs/1789.png);
+}
+
+#y1945 {
+    background-image: url(../imgs/1945.png);
+}
+
+#y1969 {
+    background-image: url(../imgs/1969.png);
+}
+
+#y1989 {
+    background-image: url(../imgs/1989.png);
+}
+
+#y2427 {
+    background-image: url(../imgs/2427.png);
+}
+
+#y2675 {
+    background-image: url(../imgs/2675.png);
+}
+
+#y2815 {
+    background-image: url(../imgs/2815.png);
+}
+
+#y2999 {
+    background-image: url(../imgs/2999.png);
+}
+
+#y3013 {
+    background-image: url(../imgs/3013.png);
+}
+
+#y3309 {
+    background-image: url(../imgs/3309.png);
+}
+
+#y4108 {
+    background-image: url(../imgs/4108.png);
+}
+
+#y4652 {
+    background-image: url(../imgs/4652.png);
+}
+
+#d2011 {
+    background-image: url(../imgs/d2011.png);
+}
+
+#d2311 {
+    background-image: url(../imgs/d2311.png);
+}
+
+#d912 {
+    background-image: url(../imgs/d912.png);
+}
+
+#d1812 {
+    background-image: url(../imgs/d1812.png);
+}
